@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vigen Kocharyan Portfolio</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    color: #222;
+    background: #f9f9f9;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h1 {
+    margin-bottom: 5px;
+  }
+  nav {
+    margin-bottom: 30px;
+  }
+  button.lang-btn {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 6px 14px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  button.lang-btn.active {
+    background: #0056b3;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .contact-item {
+    margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Vigen Kocharyan</h1>
+  <p>Junior Python/Django Developer</p>
+  <nav>
+    <button class="lang-btn active" data-lang="en">English</button>
+    <button class="lang-btn" data-lang="hy">Հայերեն</button>
+  </nav>
+</header>
+
+<section id="about">
+  <h2 data-lang="en">About Me</h2>
+  <h2 data-lang="hy" style="display:none;">Իմ մասին</h2>
+  <p data-lang="en">
+    I am a Junior Python/Django developer with practical experience in building web applications. I write clean, maintainable code and am eager to grow and take on new challenges.  
+    Besides Python and Django, I have basic knowledge of Docker, Git, HTML, CSS, JavaScript, Flutter, and Go. I am motivated to improve my skills and contribute effectively in development teams.
+  </p>
+  <p data-lang="hy" style="display:none;">
+    Ես Junior Python/Django ծրագրավորող եմ, որն ունի վեբ հավելվածների ստեղծման պրակտիկ փորձ: Գրանցում եմ մաքուր և պահպանվող կոդ և պատրաստ եմ զարգանալ և նոր մարտահրավերներ ստանձնել։  
+    Python-ի և Django-ի հետ մեկտեղ, ունեմ հիմնական գիտելիքներ Docker, Git, HTML, CSS, JavaScript, Flutter և Go լեզուներում։ Մոտիվացված եմ զարգանալու և արդյունավետ մասնակցելու թիմային աշխատանքին։
+  </p>
+</section>
+
+<section id="skills">
+  <h2 data-lang="en">Skills</h2>
+  <h2 data-lang="hy" style="display:none;">Հմտություններ</h2>
+  <ul>
+    <li data-lang="en">Python programming language</li>
+    <li data-lang="hy" style="display:none;">Python ծրագրավորման լեզու</li>
+    <li data-lang="en">Django, Django REST Framework</li>
+    <li data-lang="hy" style="display:none;">Django, Django REST Framework</li>
+    <li data-lang="en">PostgreSQL, SQLite</li>
+    <li data-lang="hy" style="display:none;">PostgreSQL, SQLite</li>
+    <li data-lang="en">Docker basics</li>
+    <li data-lang="hy" style="display:none;">Docker հիմնական գիտելիքներ</li>
+    <li data-lang="en">Git, GitHub version control</li>
+    <li data-lang="hy" style="display:none;">Git, GitHub վերսիաների կառավարում</li>
+    <li data-lang="en">HTML, CSS, JavaScript (basic)</li>
+    <li data-lang="hy" style="display:none;">HTML, CSS, JavaScript (հիմնական)</li>
+    <li data-lang="en">Flutter basics</li>
+    <li data-lang="hy" style="display:none;">Flutter հիմնական գիտելիքներ</li>
+    <li data-lang="en">Go language basics</li>
+    <li data-lang="hy" style="display:none;">Go լեզվի հիմնական գիտելիքներ</li>
+    <li data-lang="en">API development and RESTful services</li>
+    <li data-lang="hy" style="display:none;">API մշակում և RESTful ծառայություններ</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2 data-lang="en">Projects</h2>
+  <h2 data-lang="hy" style="display:none;">Նախագծեր</h2>
+
+  <h3><a href="https://github.com/VigenKocharyan/DjangoBlog" target="_blank">DjangoBlog</a></h3>
+  <p data-lang="en">
+    A simple blog application with user registration, login/logout, and CRUD functionality for posts. Implemented form validations, user authentication, and template rendering using Django’s built-in tools.  
+    This project helped me strengthen my understanding of Django’s MVC pattern and user management.
+  </p>
+  <p data-lang="hy" style="display:none;">
+    Պարզ բլոգ հավելված՝ օգտագործողների գրանցմամբ, մուտքով/ելքով, և հրապարակների ստեղծում/խմբագրում/ջնջում ֆունկցիաներով։ Դիմումների վավերացում, օգտագործողների վավերացում և ձևանմուշների օգտագործում Django-ի միջոցով։  
+    Այս նախագիծը ամրապնդեց իմ պատկերացումները Django-ի MVC մոդելի և օգտագործողի կառավարման մասին։
+  </p>
+
+  <h3><a href="https://github.com/VigenKocharyan/eCommerceSite" target="_blank">eCommerceSite</a></h3>
+  <p data-lang="en">
+    A basic e-commerce website featuring product catalog, shopping cart, and order processing. Implemented session-based cart management and PostgreSQL database integration.  
+    Learned practical skills in managing stateful web applications and handling user sessions.
+  </p>
+  <p data-lang="hy" style="display:none;">
+    Հիմնական էլեկտրոնային առևտրի կայք՝ ապրանքների կատալոգով, զամբյուղով և պատվերի մշակումով։ Զամբյուղի կառավարումը իրականացվում է սեսիայի միջոցով, տվյալների պահպանում PostgreSQL-ում։  
+    Այս նախագծով ձեռք բերեցի պրակտիկ հմտություններ Stateful վեբ հավելվածների և սեսիաների կառավարման մեջ։
+  </p>
+
+  <h3><a href="https://github.com/VigenKocharyan/REST-API-Example" target="_blank">REST API Example</a></h3>
+  <p data-lang="en">
+    To-do list RESTful API built with Django REST Framework supporting full CRUD operations. Used serializers, viewsets, and routers to organize API endpoints efficiently.  
+    Gained experience creating backend services for client applications.
+  </p>
+  <p data-lang="hy" style="display:none;">
+    To-do list RESTful API, որը ստեղծվել է Django REST Framework-ի միջոցով՝ լրիվ CRUD ֆունկցիոնալությամբ։ Օգտագործվել են սերիալիզատորներ, viewset-ներ և routers API-ի արդյունավետ կազմակերպման համար։  
+    Ստացվեց փորձ ստեղծել backend ծառայություններ հաճախորդի հավելվածների համար։
+  </p>
+</section>
+
+<section id="contacts">
+  <h2 data-lang="en">Contacts</h2>
+  <h2 data-lang="hy" style="display:none;">Կոնտակտներ</h2>
+  <p class="contact-item" data-lang="en">Phone: +374 98 483 434</p>
+  <p class="contact-item" data-lang="hy" style="display:none;">Հեռախոս՝ +374 98 483 434</p>
+  <p class="contact-item">Email: <a href="mailto:kocharyanvigen070@gmail.com">kocharyanvigen070@gmail.com</a></p>
+  <p class="contact-item">GitHub: <a href="https://github.com/VigenKocharyan" target="_blank">github.com/VigenKocharyan</a></p>
+</section>
+
+<script>
+  const buttons = document.querySelectorAll('.lang-btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const lang = btn.getAttribute('data-lang');
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        if (el.getAttribute('data-lang') === lang) {
+          el.style.display = '';
+        } else {
+          el.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
